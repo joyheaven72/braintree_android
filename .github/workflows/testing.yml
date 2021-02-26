@@ -15,4 +15,4 @@ jobs:
           java-version: 1.8
 
       - name: Unit Test
-        run: ./gradlew --stacktrace lint testRelease
+        run: ./gradlew --stacktrace testRelease
